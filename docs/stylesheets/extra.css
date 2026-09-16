@@ -1,0 +1,27 @@
+/* RTL layout support for Arabic */
+[dir="rtl"] .md-nav__title,
+[dir="rtl"] .md-nav__link {
+  text-align: right;
+}
+
+[dir="rtl"] .md-content__inner {
+  direction: rtl;
+  text-align: right;
+}
+
+[dir="rtl"] .md-typeset table {
+  direction: rtl;
+}
+
+[dir="rtl"] .md-typeset blockquote {
+  border-left: none;
+  border-right: 0.2rem solid var(--md-default-fg-color--lighter);
+  padding-left: 0;
+  padding-right: 0.6rem;
+}
+
+/* Subtitle styling on the home page */
+.md-typeset h2.site-subtitle {
+  color: var(--md-default-fg-color--light);
+  font-style: italic;
+}

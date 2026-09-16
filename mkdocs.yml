@@ -1,0 +1,162 @@
+site_name: Golden Scholars
+site_description: "Mathematics of the Islamic World: An Encyclopedic Reference"
+site_author: "Professor Moez Ben-Azzouz"
+site_url: https://goldenscholars.net/
+use_directory_urls: false
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+          nav_translations:
+            Home: Accueil
+            Historical Context: Contexte Historique
+            Scholars: Savants
+            Master Index: Index Principal
+            "Era I — Foundations (750–900)": "Ère I — Fondations (750–900)"
+            "Era II — The Tenth Century": "Ère II — Le Xe Siècle"
+            "Era III — The Golden Age (11th c.)": "Ère III — L'Âge d'Or (XIe s.)"
+            "Era IV — The Twelfth Century": "Ère IV — Le XIIe Siècle"
+            "Era V — Maragha and the 13th Century": "Ère V — Maragha et le XIIIe Siècle"
+            "Era VI — The Fourteenth Century": "Ère VI — Le XIVe Siècle"
+            "Era VII — Samarkand and the 15th Century": "Ère VII — Samarcande et le XVe Siècle"
+            "Era VIII — Later Scholars (16th c. onward)": "Ère VIII — Savants Tardifs (XVIe s. et suiv.)"
+            Thematic Chapters: Chapitres Thématiques
+            Numerals and Arithmetic: Chiffres et Arithmétique
+            Algebra: Algèbre
+            Geometry: Géométrie
+            Trigonometry: Trigonométrie
+            Number Theory and Combinatorics: Théorie des Nombres et Combinatoire
+            Mathematical Astronomy: Astronomie Mathématique
+            Optics and Mathematical Physics: Optique et Physique Mathématique
+            Transmission to Europe: Transmission vers l'Europe
+            The Translation Movement: Le Mouvement de Traduction
+            Fibonacci and the Algorists: Fibonacci et les Algoristes
+            Renaissance Connections: Connexions Renaissance
+            Legacy: Héritage
+            Lines to Modern Mathematics: Liens avec les Mathématiques Modernes
+            Etymology of Mathematical Terms: Étymologie des Termes Mathématiques
+            Timeline: Chronologie
+            Glossary: Glossaire
+            Bibliography: Bibliographie
+            About This Project: À Propos de ce Projet
+        - locale: ar
+          name: العربية
+          build: true
+          nav_translations:
+            Home: الرئيسية
+            Historical Context: السياق التاريخي
+            Scholars: العلماء
+            Master Index: الفهرس الرئيسي
+            "Era I — Foundations (750–900)": "الحقبة الأولى — الأسس (750–900)"
+            "Era II — The Tenth Century": "الحقبة الثانية — القرن العاشر"
+            "Era III — The Golden Age (11th c.)": "الحقبة الثالثة — العصر الذهبي (ق. 11)"
+            "Era IV — The Twelfth Century": "الحقبة الرابعة — القرن الثاني عشر"
+            "Era V — Maragha and the 13th Century": "الحقبة الخامسة — مراغة والقرن الثالث عشر"
+            "Era VI — The Fourteenth Century": "الحقبة السادسة — القرن الرابع عشر"
+            "Era VII — Samarkand and the 15th Century": "الحقبة السابعة — سمرقند والقرن الخامس عشر"
+            "Era VIII — Later Scholars (16th c. onward)": "الحقبة الثامنة — علماء متأخرون (ق. 16 فصاعداً)"
+            Thematic Chapters: الفصول الموضوعاتية
+            Numerals and Arithmetic: الأرقام والحساب
+            Algebra: الجبر
+            Geometry: الهندسة
+            Trigonometry: علم المثلثات
+            Number Theory and Combinatorics: نظرية الأعداد والتوافقيات
+            Mathematical Astronomy: الفلك الرياضي
+            Optics and Mathematical Physics: البصريات والفيزياء الرياضية
+            Transmission to Europe: الانتقال إلى أوروبا
+            The Translation Movement: حركة الترجمة
+            Fibonacci and the Algorists: فيبوناتشي والحسّابون
+            Renaissance Connections: الصلات بعصر النهضة
+            Legacy: الإرث
+            Lines to Modern Mathematics: الروابط بالرياضيات الحديثة
+            Etymology of Mathematical Terms: اشتقاق المصطلحات الرياضية
+            Timeline: التسلسل الزمني
+            Glossary: قاموس المصطلحات
+            Bibliography: قائمة المراجع
+            About This Project: حول هذا المشروع
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js
+
+nav:
+  - Home: index.md
+  - Historical Context: historical-context.md
+  - Scholars:
+      - Master Index: scholars/index.md
+      - "Era I — Foundations (750–900)": scholars/era-01-foundations.md
+      - "Era II — The Tenth Century": scholars/era-02-tenth-century.md
+      - "Era III — The Golden Age (11th c.)": scholars/era-03-golden-age.md
+      - "Era IV — The Twelfth Century": scholars/era-04-twelfth-century.md
+      - "Era V — Maragha and the 13th Century": scholars/era-05-maragha.md
+      - "Era VI — The Fourteenth Century": scholars/era-06-fourteenth.md
+      - "Era VII — Samarkand and the 15th Century": scholars/era-07-samarkand.md
+      - "Era VIII — Later Scholars (16th c. onward)": scholars/era-08-later.md
+  - Thematic Chapters:
+      - Numerals and Arithmetic: themes/numerals-arithmetic.md
+      - Algebra: themes/algebra.md
+      - Geometry: themes/geometry.md
+      - Trigonometry: themes/trigonometry.md
+      - Number Theory and Combinatorics: themes/number-theory-combinatorics.md
+      - Mathematical Astronomy: themes/astronomy-spherical.md
+      - Optics and Mathematical Physics: themes/optics-mechanics.md
+  - Transmission to Europe:
+      - The Translation Movement: transmission/translation-movement.md
+      - Fibonacci and the Algorists: transmission/fibonacci-europe.md
+      - Renaissance Connections: transmission/renaissance-links.md
+  - Legacy:
+      - Lines to Modern Mathematics: legacy/modern-mathematics.md
+      - Etymology of Mathematical Terms: legacy/etymology.md
+  - Timeline: timeline.md
+  - Glossary: glossary.md
+  - Bibliography: bibliography.md
+  - About This Project: about.md
