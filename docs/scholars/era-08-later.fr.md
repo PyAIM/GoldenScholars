@@ -40,7 +40,7 @@ Cheikh al-Islam d'Ispahan sous Shah Abbas et esprit universel célébré de la c
 
 Mathématicien turco-algérien dont la *Tuhfat al-A'dad* (c. 1591, écrite en turc) examinait la correspondance entre les progressions géométriques et la progression arithmétique de leurs exposants — le noyau conceptuel à partir duquel se développèrent les logarithmes de Napier (1614) (un noyau présent aussi dans la règle des exposants d'al-Samawal et chez des auteurs européens comme Stifel, 1544). Les affirmations populaires occasionnelles selon lesquelles Ibn Hamza aurait « inventé les logarithmes » exagèrent : reconnaître la correspondance des exposants n'est pas construire des tables de logarithmes. Il est inclus ici précisément pour illustrer la manière dont cette référence traite les affirmations gonflées, en énonçant exactement ce que la source permet d'affirmer.
 
-*Sources : l'histoire des sciences ottomanes de Salih Zeki au début du XXe siècle (Asar-i Bakiye), la principale notice moderne ; discussions dans la littérature turque d'histoire des sciences. Les travaux directs sur les manuscrits en langues occidentales sont rares, et Claude signale que cette entrée repose sur une base documentaire plus mince que les autres de cette référence.*
+*Sources : l'histoire des sciences ottomanes de Salih Zeki au début du XXe siècle (Asar-i Bakiye), la principale notice moderne ; discussions dans la littérature turque d'histoire des sciences. Les travaux directs sur les manuscrits en langues occidentales sont rares, et cette entrée repose sur une base documentaire plus mince que les autres de cette référence.*
 
 ---
 

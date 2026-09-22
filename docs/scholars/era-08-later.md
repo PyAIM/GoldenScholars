@@ -40,7 +40,7 @@ Sheikh al-Islam of Isfahan under Shah Abbas and a celebrated polymath of Safavid
 
 A Turkish-Algerian mathematician whose *Tuhfat al-A'dad* (c. 1591, written in Turkish) discussed the correspondence between geometric progressions and the arithmetic progression of their exponents, the conceptual kernel from which Napier's logarithms (1614) grew (a kernel also present in al-Samawal's exponent rule and in European writers like Stifel, 1544). Occasional popular claims that Ibn Hamza "invented logarithms" overstate the case: recognizing the exponent correspondence is not constructing logarithm tables. He is included here precisely to model how this reference treats inflated claims, by stating exactly what the source supports.
 
-*Sources: Salih Zeki's early-20th-century Ottoman history of science (Asar-i Bakiye), the primary modern notice; discussions in Turkish history-of-science literature. Direct manuscript scholarship in Western languages is thin, and Claude flags this entry as resting on a thinner evidentiary base than others in this reference.*
+*Sources: Salih Zeki's early-20th-century Ottoman history of science (Asar-i Bakiye), the primary modern notice; discussions in Turkish history-of-science literature. Direct manuscript scholarship in Western languages is thin, and this entry rests on a thinner evidentiary base than others in this reference.*
 
 ---
 
